@@ -5016,7 +5016,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 .navbar {
     position: relative;
     min-height: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     border: 1px solid transparent
 }
 
@@ -7695,6 +7695,7 @@ button.close {
 
 .hero {
   background: url(../images/background.jpg) no-repeat center;
+  height:600px;
   }
 
 .section.hero {
@@ -7706,6 +7707,10 @@ button.close {
     align-items: center;
     text-align: center;
     padding-top: 20px;
+}
+
+section.hero .hero-title-box {
+    max-width: 100%;
 }
 
 .btn-group-vertical>.btn-group:after,
